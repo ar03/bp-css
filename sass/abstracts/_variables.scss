@@ -1,0 +1,40 @@
+//Card Photos
+// background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+ //{background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);}
+// {background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);}
+//Colors
+$color-primary-light: #7ed56f;
+$color-primary: #55c57a;
+$color-primary-dark: #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-copper: #dd7208;
+$color-white: #fff;
+$color-grey: #333;
+$color-black: #000;
+
+//Font
+$default-font-size: 1.6rem;
+
+//Grid
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+//Gradients and Shadows
+$primary-copper-gradient: to right bottom, rgba($color-primary, .8), rgba($color-copper, .6);
+$solid-color-gradient: 105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 50%, transparent 50%;
+$secondary-gradient: to right bottom, $color-secondary-light, $color-secondary-dark;
+$primary-gradient: to right bottom, $color-primary-light, $color-primary-dark;
+$tertiary-gradient: to right bottom, $color-tertiary-light, $color-tertiary-dark;
+
+//Shapes
+$circle: 50% at 50% 50%;
